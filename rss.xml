@@ -6,7 +6,7 @@
 
   <channel>
     <title>KnowledgeVerse — Learn. Build. Grow.</title>
-    <link>https://knowledgeverse.io</link>
+    <link>https://prakashphiroda314.github.io/knowledgeverse/</link>
     <description>Premium knowledge platform covering AI, Programming, Technology, Web3, Business, Cybersecurity, and more.</description>
     <language>en-us</language>
     <managingEditor>editor@knowledgeverse.io (KnowledgeVerse)</managingEditor>
@@ -14,16 +14,16 @@
     <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <image>
-      <url>https://knowledgeverse.io/assets/icons/favicon.svg</url>
+      <url>https://prakashphiroda314.github.io/knowledgeverse/assets/icons/favicon.svg</url>
       <title>KnowledgeVerse</title>
       <link>https://knowledgeverse.io</link>
     </image>
-    <atom:link href="https://knowledgeverse.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://prakashphiroda314.github.io/knowledgeverse/rss.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Getting Started with Artificial Intelligence: A Complete Beginner's Guide</title>
-      <link>https://knowledgeverse.io/articles/getting-started-with-ai.html</link>
-      <guid>https://knowledgeverse.io/articles/getting-started-with-ai.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/getting-started-with-ai.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/getting-started-with-ai.html</guid>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <category>Artificial Intelligence</category>
       <description><![CDATA[Discover the fundamentals of Artificial Intelligence, machine learning basics, and how AI is reshaping every industry in 2024 and beyond.]]></description>
@@ -32,8 +32,8 @@
 
     <item>
       <title>Pi Network: Complete Guide to Mining, Value, and Future</title>
-      <link>https://knowledgeverse.io/articles/pi-network-guide.html</link>
-      <guid>https://knowledgeverse.io/articles/pi-network-guide.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/pi-network-guide.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/pi-network-guide.html</guid>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
       <category>Pi Network</category>
       <description><![CDATA[Everything you need to know about Pi Network — how it works, how to mine Pi, its current value, and what the future holds.]]></description>
@@ -42,8 +42,8 @@
 
     <item>
       <title>Python Programming for Beginners: Build Real Projects from Day One</title>
-      <link>https://knowledgeverse.io/articles/python-for-beginners.html</link>
-      <guid>https://knowledgeverse.io/articles/python-for-beginners.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/python-for-beginners.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/python-for-beginners.html</guid>
       <pubDate>Wed, 28 Nov 2024 00:00:00 +0000</pubDate>
       <category>Programming</category>
       <description><![CDATA[Learn Python programming from scratch with hands-on projects, clear explanations, and industry best practices.]]></description>
@@ -52,8 +52,8 @@
 
     <item>
       <title>Web3 Explained: The Internet's Next Revolution</title>
-      <link>https://knowledgeverse.io/articles/web3-explained.html</link>
-      <guid>https://knowledgeverse.io/articles/web3-explained.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/web3-explained.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/web3-explained.html</guid>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
       <category>Web3</category>
       <description><![CDATA[A deep dive into Web3, decentralized applications, blockchain technology, and what the next generation of the internet means for you.]]></description>
@@ -62,8 +62,8 @@
 
     <item>
       <title>Cybersecurity Fundamentals Every Professional Must Know</title>
-      <link>https://knowledgeverse.io/articles/cybersecurity-fundamentals.html</link>
-      <guid>https://knowledgeverse.io/articles/cybersecurity-fundamentals.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/cybersecurity-fundamentals.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/cybersecurity-fundamentals.html</guid>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <category>Cybersecurity</category>
       <description><![CDATA[Master the core principles of cybersecurity, understand threat landscapes, and learn practical strategies to protect digital assets.]]></description>
@@ -72,8 +72,8 @@
 
     <item>
       <title>Web Development Roadmap 2024: Frontend, Backend, and Full-Stack</title>
-      <link>https://knowledgeverse.io/articles/web-development-roadmap.html</link>
-      <guid>https://knowledgeverse.io/articles/web-development-roadmap.html</guid>
+      <link>https://prakashphiroda314.github.io/knowledgeverse/articles/web-development-roadmap.html</link>
+      <guid>https://prakashphiroda314.github.io/knowledgeverse/articles/web-development-roadmap.html</guid>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
       <category>Web Development</category>
       <description><![CDATA[The definitive roadmap for becoming a professional web developer in 2024 — covering frontend, backend, and full-stack paths.]]></description>
