@@ -27,7 +27,7 @@
   function formatDate(d) { return new Date(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }); }
   function formatViews(n) { return n >= 1000 ? (n / 1000).toFixed(1) + 'k' : (n || 0); }
   function getArticleUrl(slug) { return BASE + 'articles/' + slug + '.html'; }
-  function getCategoryUrl(slug) { return './categories/' + slug + '.html'; }
+  function getCategoryUrl(slug) { return BASE + 'categories/' + slug + '.html'; }
 
   /* ── Fetch helpers ─────────────────────────── */
   async function fetchJSON(path) {
