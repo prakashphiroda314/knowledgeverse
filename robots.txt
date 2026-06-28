@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://knowledgeverse.io/sitemap.xml
+
+# Block crawling of non-content files
+Disallow: /assets/js/
+Disallow: /content/

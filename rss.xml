@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>KnowledgeVerse — Learn. Build. Grow.</title>
+    <link>https://knowledgeverse.io</link>
+    <description>Premium knowledge platform covering AI, Programming, Technology, Web3, Business, Cybersecurity, and more.</description>
+    <language>en-us</language>
+    <managingEditor>editor@knowledgeverse.io (KnowledgeVerse)</managingEditor>
+    <copyright>© 2024 KnowledgeVerse</copyright>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://knowledgeverse.io/assets/icons/favicon.svg</url>
+      <title>KnowledgeVerse</title>
+      <link>https://knowledgeverse.io</link>
+    </image>
+    <atom:link href="https://knowledgeverse.io/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Getting Started with Artificial Intelligence: A Complete Beginner's Guide</title>
+      <link>https://knowledgeverse.io/articles/getting-started-with-ai.html</link>
+      <guid>https://knowledgeverse.io/articles/getting-started-with-ai.html</guid>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <category>Artificial Intelligence</category>
+      <description><![CDATA[Discover the fundamentals of Artificial Intelligence, machine learning basics, and how AI is reshaping every industry in 2024 and beyond.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600" medium="image"/>
+    </item>
+
+    <item>
+      <title>Pi Network: Complete Guide to Mining, Value, and Future</title>
+      <link>https://knowledgeverse.io/articles/pi-network-guide.html</link>
+      <guid>https://knowledgeverse.io/articles/pi-network-guide.html</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <category>Pi Network</category>
+      <description><![CDATA[Everything you need to know about Pi Network — how it works, how to mine Pi, its current value, and what the future holds.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=600" medium="image"/>
+    </item>
+
+    <item>
+      <title>Python Programming for Beginners: Build Real Projects from Day One</title>
+      <link>https://knowledgeverse.io/articles/python-for-beginners.html</link>
+      <guid>https://knowledgeverse.io/articles/python-for-beginners.html</guid>
+      <pubDate>Wed, 28 Nov 2024 00:00:00 +0000</pubDate>
+      <category>Programming</category>
+      <description><![CDATA[Learn Python programming from scratch with hands-on projects, clear explanations, and industry best practices.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=600" medium="image"/>
+    </item>
+
+    <item>
+      <title>Web3 Explained: The Internet's Next Revolution</title>
+      <link>https://knowledgeverse.io/articles/web3-explained.html</link>
+      <guid>https://knowledgeverse.io/articles/web3-explained.html</guid>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <category>Web3</category>
+      <description><![CDATA[A deep dive into Web3, decentralized applications, blockchain technology, and what the next generation of the internet means for you.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600" medium="image"/>
+    </item>
+
+    <item>
+      <title>Cybersecurity Fundamentals Every Professional Must Know</title>
+      <link>https://knowledgeverse.io/articles/cybersecurity-fundamentals.html</link>
+      <guid>https://knowledgeverse.io/articles/cybersecurity-fundamentals.html</guid>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <category>Cybersecurity</category>
+      <description><![CDATA[Master the core principles of cybersecurity, understand threat landscapes, and learn practical strategies to protect digital assets.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600" medium="image"/>
+    </item>
+
+    <item>
+      <title>Web Development Roadmap 2024: Frontend, Backend, and Full-Stack</title>
+      <link>https://knowledgeverse.io/articles/web-development-roadmap.html</link>
+      <guid>https://knowledgeverse.io/articles/web-development-roadmap.html</guid>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <category>Web Development</category>
+      <description><![CDATA[The definitive roadmap for becoming a professional web developer in 2024 — covering frontend, backend, and full-stack paths.]]></description>
+      <media:content url="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600" medium="image"/>
+    </item>
+
+  </channel>
+</rss>

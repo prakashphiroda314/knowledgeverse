@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Articles — KnowledgeVerse</title>
+  <meta name="description" content="Search thousands of articles on AI, Programming, Technology, Web3, Business, Cybersecurity, and more on KnowledgeVerse.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://knowledgeverse.io/search.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <meta name="theme-color" content="#5C3B9E">
+  <script src="assets/js/theme.js"></script>
+</head>
+<body class="page-search">
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="KnowledgeVerse home">
+          <div class="nav__logo-icon">KV</div>
+          <span>Knowledge<span>Verse</span></span>
+        </a>
+        <div class="nav__links">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="categories/index.html" class="nav__link">Categories</a>
+          <a href="search.html" class="nav__link active">Search</a>
+          <a href="about.html" class="nav__link">About</a>
+        </div>
+        <div class="nav__actions">
+          <button class="nav__theme-btn" data-theme-btn aria-label="Toggle dark mode">🌙</button>
+          <button class="nav__hamburger" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="nav__mobile" id="mobile-menu">
+    <nav class="nav__mobile-links">
+      <a href="index.html" class="nav__mobile-link">🏠 Home</a>
+      <a href="categories/index.html" class="nav__mobile-link">📂 Categories</a>
+      <a href="search.html" class="nav__mobile-link">🔍 Search</a>
+      <a href="about.html" class="nav__mobile-link">ℹ️ About</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section__label">Find Knowledge</div>
+        <h1 class="page-hero__title">Search Articles</h1>
+        <p class="page-hero__subtitle">Instant offline search across all published articles.</p>
+        <!-- Search Bar -->
+        <div style="max-width:640px;margin-top:32px">
+          <form id="search-form" role="search" aria-label="Search articles">
+            <div class="search-bar">
+              <label for="search-input" class="visually-hidden">Search for articles</label>
+              <input type="search" id="search-input" class="search-bar__input" placeholder="Search topics, keywords, categories..." autocomplete="off" aria-label="Search articles">
+              <button type="submit" class="search-bar__btn" aria-label="Submit search">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <!-- Filters Row -->
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:24px">
+          <div>
+            <span id="search-count" style="font-size:0.9rem;color:var(--text-muted);font-weight:500">Loading articles...</span>
+          </div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="search-filters" role="group" aria-label="Filter by category">
+          <button class="filter-btn active" data-cat-filter="">All</button>
+          <button class="filter-btn" data-cat-filter="artificial-intelligence">🤖 AI</button>
+          <button class="filter-btn" data-cat-filter="programming">💻 Programming</button>
+          <button class="filter-btn" data-cat-filter="web3">🔮 Web3</button>
+          <button class="filter-btn" data-cat-filter="cybersecurity">🔒 Cybersecurity</button>
+          <button class="filter-btn" data-cat-filter="data-analytics">📊 Data Analytics</button>
+          <button class="filter-btn" data-cat-filter="machine-learning">🧠 ML</button>
+          <button class="filter-btn" data-cat-filter="blockchain">⛓️ Blockchain</button>
+          <button class="filter-btn" data-cat-filter="business">💼 Business</button>
+          <button class="filter-btn" data-cat-filter="finance">💰 Finance</button>
+          <button class="filter-btn" data-cat-filter="productivity">⏱️ Productivity</button>
+          <button class="filter-btn" data-cat-filter="pi-network">π Pi Network</button>
+        </div>
+
+        <!-- Sort Filters -->
+        <div class="search-filters" role="group" aria-label="Sort articles" style="margin-bottom:32px">
+          <span style="font-size:0.82rem;color:var(--text-muted);font-weight:500;padding:6px 0">Sort:</span>
+          <button class="filter-btn active" data-sort="newest">Newest</button>
+          <button class="filter-btn" data-sort="oldest">Oldest</button>
+          <button class="filter-btn" data-sort="popular">Most Popular</button>
+        </div>
+
+        <!-- Results -->
+        <div class="articles-grid articles-grid--3" id="search-results">
+          <div style="grid-column:1/-1;text-align:center;padding:60px 0;color:var(--text-muted)">
+            <div style="font-size:2rem;margin-bottom:12px">🔍</div>
+            <p>Loading articles...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 KnowledgeVerse. All rights reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="privacy.html" class="footer__bottom-link">Privacy</a>
+          <a href="terms.html" class="footer__bottom-link">Terms</a>
+          <a href="sitemap.xml" class="footer__bottom-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="assets/js/lazyload.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>
