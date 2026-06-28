@@ -2,7 +2,7 @@
   "name": "KnowledgeVerse",
   "short_name": "KnowledgeVerse",
   "description": "Premium knowledge platform — Learn. Build. Grow.",
-  "start_url": "/index.html",
+  "start_url": "https://prakashphiroda314.github.io/knowledgeverse/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#5C3B9E",
