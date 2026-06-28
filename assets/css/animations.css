@@ -1,0 +1,83 @@
+/* =============================================
+   KnowledgeVerse — Animations & Transitions
+   ============================================= */
+
+/* ── Hover lift effect ──────────────────────── */
+.hover-lift {
+  transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(92,59,158,0.14);
+}
+
+/* ── Fade in ────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in { animation: fadeIn 0.5s ease forwards; }
+
+/* ── Slide up ───────────────────────────────── */
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.slide-up { animation: slideUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+.slide-up-delay-1 { animation-delay: 0.1s; opacity: 0; }
+.slide-up-delay-2 { animation-delay: 0.2s; opacity: 0; }
+.slide-up-delay-3 { animation-delay: 0.3s; opacity: 0; }
+.slide-up-delay-4 { animation-delay: 0.4s; opacity: 0; }
+
+/* ── Scale in ───────────────────────────────── */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+.scale-in { animation: scaleIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+
+/* ── Stagger children ───────────────────────── */
+.stagger-children > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-children > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger-children > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-children > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger-children > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-children > *:nth-child(6) { animation-delay: 0.3s; }
+
+/* ── Shimmer for skeletons ──────────────────── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ── Smooth image load ──────────────────────── */
+img { transition: opacity 0.3s ease; }
+img.loaded { opacity: 1; }
+img:not(.loaded):not([src]) { opacity: 0; }
+
+/* ── Link underline animation ───────────────── */
+.animated-link {
+  position: relative;
+  display: inline-block;
+}
+.animated-link::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--primary);
+  transition: width 0.25s ease;
+}
+.animated-link:hover::after { width: 100%; }
+
+/* ── Reduced motion ─────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}

@@ -1,0 +1,99 @@
+/* =============================================
+   KnowledgeVerse — Typography Utilities
+   ============================================= */
+
+/* ── Font loading ───────────────────────────── */
+/* Inter & Merriweather loaded via Google Fonts in HTML */
+
+/* ── Heading scale ──────────────────────────── */
+.text-hero      { font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.1; }
+.text-display   { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.2; }
+.text-heading   { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.25; }
+.text-title     { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.3; }
+.text-subtitle  { font-size: 1.05rem; font-weight: 400; color: var(--text-secondary); line-height: 1.65; }
+.text-body      { font-size: 1rem; line-height: 1.65; }
+.text-small     { font-size: 0.875rem; line-height: 1.6; }
+.text-xs        { font-size: 0.75rem; line-height: 1.5; }
+.text-label     { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
+
+/* ── Font weights ───────────────────────────── */
+.font-normal    { font-weight: 400; }
+.font-medium    { font-weight: 500; }
+.font-semibold  { font-weight: 600; }
+.font-bold      { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black     { font-weight: 900; }
+
+/* ── Font families ──────────────────────────── */
+.font-sans  { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+.font-serif { font-family: 'Merriweather', Georgia, serif; }
+.font-mono  { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+
+/* ── Editorial text styles ──────────────────── */
+.editorial-lead {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+  margin: 1.5em 0;
+}
+
+.drop-cap::first-letter {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 0.75;
+  float: left;
+  margin: 0.1em 0.1em 0 0;
+  color: var(--primary);
+}
+
+/* ── Text colors ────────────────────────────── */
+.text-color-primary   { color: var(--text-primary); }
+.text-color-secondary { color: var(--text-secondary); }
+.text-color-muted     { color: var(--text-muted); }
+.text-color-brand     { color: var(--primary); }
+.text-color-accent    { color: var(--accent-dark); }
+
+/* ── Text alignment ─────────────────────────── */
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+
+/* ── Text decoration ────────────────────────── */
+.underline        { text-decoration: underline; text-underline-offset: 3px; }
+.no-underline     { text-decoration: none; }
+.line-through     { text-decoration: line-through; }
+.italic           { font-style: italic; }
+.not-italic       { font-style: normal; }
+.uppercase        { text-transform: uppercase; }
+.lowercase        { text-transform: lowercase; }
+.capitalize       { text-transform: capitalize; }
+.tracking-tight   { letter-spacing: -0.025em; }
+.tracking-wide    { letter-spacing: 0.05em; }
+.tracking-wider   { letter-spacing: 0.1em; }
+.leading-tight    { line-height: 1.25; }
+.leading-normal   { line-height: 1.65; }
+.leading-relaxed  { line-height: 1.8; }
+
+/* ── Truncate ───────────────────────────────── */
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* ── Gradient text ──────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.gradient-text-accent {
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

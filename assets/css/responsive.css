@@ -1,0 +1,108 @@
+/* =============================================
+   KnowledgeVerse — Responsive Styles
+   ============================================= */
+
+/* ── Large Desktop (≥ 1440px) ─────────────── */
+@media (min-width: 1440px) {
+  :root { --max-width: 1380px; }
+  .categories-grid { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* ── Desktop (≤ 1280px) ───────────────────── */
+@media (max-width: 1280px) {
+  .categories-grid { grid-template-columns: repeat(4, 1fr); }
+  .footer__grid { grid-template-columns: 1.5fr 1fr 1fr; gap: 32px; }
+  .footer__grid > *:last-child { grid-column: 1 / -1; }
+}
+
+/* ── Tablet (≤ 1024px) ────────────────────── */
+@media (max-width: 1024px) {
+  :root { --nav-height: 64px; }
+  .nav__links { display: none; }
+  .nav__hamburger { display: flex; }
+  .articles-grid--3 { grid-template-columns: repeat(2, 1fr); }
+  .articles-grid--4 { grid-template-columns: repeat(2, 1fr); }
+  .card--featured { grid-column: span 2; flex-direction: column; }
+  .card--featured .card__image { width: 100%; min-height: 200px; }
+  .article-layout { grid-template-columns: 1fr; }
+  .article-sidebar { position: static; }
+  .categories-grid { grid-template-columns: repeat(3, 1fr); }
+  .newsletter { padding: 40px 32px; }
+  .footer__grid { grid-template-columns: 1fr 1fr; }
+  .footer__brand { grid-column: 1 / -1; }
+  .hero { padding: 72px 0 60px; }
+}
+
+/* ── Small Tablet (≤ 768px) ───────────────── */
+@media (max-width: 768px) {
+  .latest-trending-grid { grid-template-columns: 1fr !important; }
+  .two-col-grid { grid-template-columns: 1fr !important; }
+  .three-col-grid { grid-template-columns: 1fr 1fr !important; }
+  .categories-full-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  .section { padding: 56px 0; }
+  .articles-grid--3 { grid-template-columns: 1fr; }
+  .articles-grid--2 { grid-template-columns: 1fr; }
+  .articles-grid--4 { grid-template-columns: 1fr; }
+  .card--featured { grid-column: span 1; }
+  .hero__stats { gap: 28px; }
+  .hero__actions { flex-direction: column; align-items: center; }
+  .hero__actions .btn { width: 100%; max-width: 320px; }
+  .categories-grid { grid-template-columns: repeat(2, 1fr); }
+  .article-layout { padding: 0 16px; }
+  .article-hero { height: 300px; }
+  .article-nav { grid-template-columns: 1fr; }
+  .article-nav__item--next { text-align: left; }
+  .newsletter__form { flex-direction: column; }
+  .newsletter__input { min-width: unset; width: 100%; }
+  .newsletter__btn { width: 100%; }
+  .newsletter { padding: 36px 20px; }
+  .footer__grid { grid-template-columns: 1fr; gap: 24px; }
+  .footer__bottom { flex-direction: column; align-items: flex-start; }
+  .search-filters { gap: 6px; }
+  .filter-btn { font-size: 0.78rem; padding: 5px 12px; }
+  .section__header { margin-bottom: 36px; }
+}
+
+/* ── Mobile (≤ 480px) ─────────────────────── */
+@media (max-width: 480px) {
+  :root { --nav-height: 60px; }
+  .container { padding: 0 16px; }
+  .hero { padding: 56px 0 48px; }
+  .hero__badge { font-size: 0.72rem; }
+  .hero__stats { flex-direction: column; gap: 20px; align-items: center; }
+  .hero__stat { text-align: center; }
+  .categories-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .category-card { padding: 18px 14px; }
+  .category-card__icon { font-size: 1.5rem; }
+  .card__body { padding: 16px; }
+  .card--featured .card__body { padding: 18px; }
+  .trending-item { gap: 14px; }
+  .trending-num { font-size: 1.4rem; width: 28px; }
+  .newsletter__title { font-size: 1.5rem; }
+  .footer { padding: 48px 0 24px; }
+  .back-to-top { bottom: 20px; right: 20px; }
+  .article__title { font-size: 1.6rem; }
+  .article__content { font-size: 1rem; }
+  .article__content h2 { font-size: 1.4rem; }
+  .article__content h3 { font-size: 1.15rem; }
+  .toc { padding: 18px; }
+  .info-box { padding: 16px; }
+  .page-hero { padding: 48px 0; }
+  .btn-lg { padding: 13px 24px; font-size: 0.95rem; }
+  .cookie-banner { flex-direction: column; align-items: flex-start; padding: 16px; }
+}
+
+/* ── Touch / Hover ────────────────────────── */
+@media (hover: none) {
+  .card:hover { transform: none; box-shadow: var(--shadow-sm); }
+  .category-card:hover { transform: none; }
+  .btn:hover { transform: none; }
+}
+
+/* ── Print ────────────────────────────────── */
+@media print {
+  .nav, .footer, .newsletter, .sidebar-card, .article-nav, .back-to-top, .reading-progress, .cookie-banner { display: none !important; }
+  .article-layout { grid-template-columns: 1fr; }
+  .article__content { font-size: 0.95rem; }
+  body { color: #000; background: #fff; }
+}
