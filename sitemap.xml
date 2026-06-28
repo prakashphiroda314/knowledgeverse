@@ -4,63 +4,62 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- Core Pages -->
-  <url>
-    <loc>https://knowledgeverse.io/</loc>
+  <url>https://prakashphiroda314.github.io/knowledgeverse/</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/search.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/search.html</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/about.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/about.html</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/privacy.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/privacy.html</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/terms.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/terms.html</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Category Pages -->
-  <url><loc>https://knowledgeverse.io/categories/</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/artificial-intelligence.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/programming.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/technology.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/web-development.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/data-analytics.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/machine-learning.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/cybersecurity.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/web3.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/blockchain.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/business.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/startups.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/finance.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/career.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/education.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/digital-marketing.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/productivity.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/agriculture.html</loc><lastmod>2024-12-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/government-schemes.html</loc><lastmod>2024-12-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/current-affairs.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledgeverse.io/categories/pi-network.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/artificial-intelligence.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/programming.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/technology.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https:https://prakashphiroda314.github.io/knowledgeverse/web-development.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/data-analytics.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/machine-learning.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/cybersecurity.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/web3.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/blockchain.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/business.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/startups.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/finance.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/career.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/education.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/digital-marketing.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/productivity.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/agriculture.html</loc><lastmod>2024-12-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/government-schemes.html</loc><lastmod>2024-12-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/current-affairs.html</loc><lastmod>2024-12-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://prakashphiroda314.github.io/knowledgeverse/categories/pi-network.html</loc><lastmod>2024-12-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
   <!-- Articles -->
   <url>
-    <loc>https://knowledgeverse.io/articles/getting-started-with-ai.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/getting-started-with-ai.html</loc>
     <lastmod>2024-12-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -70,67 +69,67 @@
     </image:image>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/python-for-beginners.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/python-for-beginners.html</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/web3-explained.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/web3-explained.html</loc>
     <lastmod>2024-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/cybersecurity-fundamentals.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/cybersecurity-fundamentals.html</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/data-analytics-guide.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/data-analytics-guide.html</loc>
     <lastmod>2024-11-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/pi-network-guide.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/pi-network-guide.html</loc>
     <lastmod>2024-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/machine-learning-projects.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/machine-learning-projects.html</loc>
     <lastmod>2024-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/startup-funding-guide.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/startup-funding-guide.html</loc>
     <lastmod>2024-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/web-development-roadmap.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/web-development-roadmap.html</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/personal-finance-basics.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/personal-finance-basics.html</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/productivity-system.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/productivity-system.html</loc>
     <lastmod>2024-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://knowledgeverse.io/articles/blockchain-technology.html</loc>
+    <loc>https://prakashphiroda314.github.io/knowledgeverse/articles/blockchain-technology.html</loc>
     <lastmod>2024-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
