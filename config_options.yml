@@ -1,3 +1,9 @@
-name: knowledgeverse
-version: "1.0.0"
-description: Knowledge Verse - AI, Web3, Data Analytics and Pi Network Knowledge Platform
+title: Knowledge Verse
+
+description: AI, Web3, Pi Network Knowledge Platform
+
+output_file: .env
+
+fixed_values: []
+
+fields: []
