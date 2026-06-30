@@ -1,14 +1,10 @@
-version: "3.8"
-
 services:
+
   web:
-    image: nginx:alpine
-    container_name: knowledgeverse
+
+    image: ghcr.io/prakashphiroda314/knowledgeverse:latest
 
     restart: unless-stopped
 
     ports:
-      - "80:80"
-
-    volumes:
-      - ./:/usr/share/nginx/html:ro
+      - "127.0.0.1:8080:80"
